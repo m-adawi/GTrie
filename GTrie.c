@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include"Trie.h"
+#include"GTrie.h"
 
 unsigned int n = 0;
 
