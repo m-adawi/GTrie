@@ -1,5 +1,5 @@
 # GTrie
-A Trie data structure for C/C++ language used to store C strings and to check if a specififc string exists in it or not, it aims to be effecient in speed and memory usage, so, unlike the popular Trie it uses linked lists in its nodes instead of arrays of pointers which requires a lot of memory, it doesn't matter if the string is alphabetical or not, ASCII or unicode.
+A Trie data structure for C/C++ language, which is used to store elements of C strings and to search if some strings are there or not, it aims to be effecient in terms of speed and memory usage, so, unlike the popular Trie it uses linked lists in its nodes instead of arrays of pointers which requires a lot of memory, it doesn't matter if the string is alphabetical or not, ASCII or unicode.
 
 The complexity of inserting a new string with the function "void load(GTrie *head, char* word)" is in the worst case O(256*n), where n is the number of characters in the string, the same complexity when checking wethter a string exists or not with the function "bool contains(GTrie *head, char *word)".
 
